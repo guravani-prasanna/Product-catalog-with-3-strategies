@@ -1,0 +1,20 @@
+{
+  "name": "product-catalog-rendering-strategies",
+  "version": "1.0.0",
+  "description": "Next.js application demonstrating CSR, SSR, and SSG",
+  "scripts": {
+    "dev:csr": "npm run dev --prefix csr",
+    "dev:ssr": "npm run dev --prefix ssr",
+    "dev:ssg": "npm run dev --prefix ssg",
+    "build:csr": "npm run build --prefix csr",
+    "build:ssr": "npm run build --prefix ssr",
+    "build:ssg": "npm run build --prefix ssg",
+    "start:csr": "npm run start --prefix csr",
+    "start:ssr": "npm run start --prefix ssr",
+    "start:ssg": "npm run start --prefix ssg",
+    "dev": "echo \"\n--- 🚀 RUNNING MULTIPLE NEXT.JS APPS ---\n\nThe applications are located in their respective folders. To start the development servers, please run one of the following commands:\n\n👉 npm run dev:csr  (Starts Client-Side Rendering App)\n👉 npm run dev:ssr  (Starts Server-Side Rendering App)\n👉 npm run dev:ssg  (Starts Static Site Generation App)\n\nAlternatively, you can cd into the specific directory (e.g., cd csr) and run 'npm run dev'.\n\""
+  },
+  "dependencies": {
+    "puppeteer": "^25.1.0"
+  }
+}
